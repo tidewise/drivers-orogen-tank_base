@@ -1,0 +1,8 @@
+name "tank_base"
+
+import_types_from "base"
+
+using_library "tank_base"
+import_types_from "tank_base/Tank.hpp"
+
+type_export_policy :all
